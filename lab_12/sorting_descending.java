@@ -121,8 +121,9 @@ public class sorting_descending {
                     {
                     System.out.println(num[i]);
                     }
-                    descend_sort<Float> obj5= new descend_sort<>();
+                    descend_sort<Short> obj5= new descend_sort<>();
                     obj5.sorting(num);
+                    break;
                     
                 }
                 default:
@@ -149,7 +150,6 @@ public class sorting_descending {
 }
 class descend_sort<T>
 {
-   int swap;
    T c;
    public <T extends Number>void sorting(T[] value)
    {
